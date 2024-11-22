@@ -1,0 +1,27 @@
+    .response {
+        margin: 20px auto;
+        margin-top: 20px;
+        margin-bottom: 60px;
+        padding: 20px;
+        background-color:  #bd9597;    
+    }
+    h1{
+        font-style: italic;
+        text-align: center;
+        font-weight: bolder;
+    }
+    .intro{
+       font-style: oblique;
+       font-weight: bolder;
+       text-align:center;
+    }
+    .conc{
+      text-align: center;
+      font-weight: bolder;
+      font-style: italic;
+    }
+
+    body{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color:  #cebebf;;
+    }

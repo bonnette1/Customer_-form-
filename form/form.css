@@ -1,0 +1,33 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px;
+    background-image: url(makemilkshake.jpg);
+}
+h1{
+    text-align:center;
+    font-style: italic;
+    font-size: xx-large ;
+    font-weight: bolder;
+     color: black;
+}
+h2{
+    text-align:center;
+    font-style: italic;
+    font-weight:bold;
+    
+}
+.form{
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color:  #cebebf;
+}
+select, 
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px ;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgb(231, 231, 208);
+}

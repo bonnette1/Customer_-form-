@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link href="form.css" rel="stylesheet">
+</head>
+<body>
+  <form method="post" action="form.php">
+  <h1>BONNIE SHORTCAKES</h1>
+  <h2>CUSTOMER FORM</h2>
+  <div class="form">
+    <fieldset>
+<legend>Personal info</legend>
+<table>
+  <tr>
+    <td><label for="name">Name:</label></td>
+    <td><input type="text" name="name"  id="name" placeholder="Please enter your name" required><br></td>
+  </tr>
+  <tr>
+    <td><label for="age">Age:</label></td>
+    <td><input type="number" name="age"  id="age" placeholder="please enter your age" required><br></td>
+  </tr>
+  <tr>
+    <td><label for="email">E-mail:</label></td>
+    <td><input type="text" name="email"  id="email" placeholder="please enter your email" required><br></td>
+  </tr>
+  <tr>
+    <td><label for="tel">Tel no:</label></td>
+    <td><input type="text" name="contact"  id="tel" placeholder="please enter your contact no." required><br></td>
+  </tr>
+  <tr>
+    <td><label for="address">Address:</label></td>
+    <td><input type="text" name="address" id="address"  placeholder="please enter your address" required><br></td>
+  </tr>
+  <tr>
+   <td><label for="date">Date</label></td> 
+    <td><input type="date" id="date" name="date"></td>
+  </tr>
+</table>
+    </fieldset>
+    <fieldset>
+      <legend>Ice cream</legend>
+    <label for="ice-cream">what is your favourite ice cream flavour? </label><br>
+    <input type="radio" id="strawberry" value="strawberry" name="flavour">
+    <label>strawberry</label><br>
+    <input type="radio" id="vanilla" value="vanilla" name="flavour">
+    <label>vanilla</label><br>
+    <input type="radio" id="Chocolate" value="chocolate" name="flavour">
+    <label>Chocolate</label><br>
+    <input type="radio" id="matcha" value="Matcha" name="flavour">
+    <label>Matcha</label><br>
+    <input type="radio" id="coffe" value="coffe"name="flavour">
+    <label>coffee</label><br>
+    <input type="radio" id="mango" value="Mango" name="flavour">
+    <label>Mango</label><br>
+    </fieldset>
+   
+
+    <fieldset>
+      <legend>Rate</legend>
+    <label for="Rate">can you rate our ice-cream flavours out of 5?</label><br>
+    <input type="checkbox" id="rate-1" value="1" name="rate">
+    <label>1</label><br>
+    <input type="checkbox" id="rate-2" value="2" name="rate">
+    <label>2</label><br>
+    <input type="checkbox" id="rate-3" value="3" name="rate">
+    <label>3</label><br>
+    <input type="checkbox" id="rate-4" value="4" name="rate">
+    <label>4</label><br>
+    <input type="checkbox" id="rate-5" value="5" name="rate">
+    <label>5</label><br>
+  </fieldset>
+    <fieldset>
+      <legend>Shortcake</legend>
+     <label for="shortcake">what is your favourite shortcake flavour</label><br>
+    <input type="radio" id="strawberry-shortcake" value="strawberry shortcake" name="shortcake">
+    <label>strawberry shortcake</label><br>
+    <input type="radio" id="lemon-shortcake" value="lemon shortcake" name="shortcake">
+    <label>lemon shortcake</label><br>
+    <input type="radio" id="almond-shortcake" value="Almond shortcake" name="shortcake">
+    <label>Almond shortcake</label><br>
+    <input type="radio" id="caramel-shortcake" value="caramel shortcake" name="shortcake">
+    <label>caramel shortcake</label><br>
+    <input type="radio" id="apple pie-shortcake" value="apple pie shortcake" name="shortcake">
+    <label>apple pie shortcake</label><br>
+    </fieldset>
+     <fieldset>
+      <legend>Help Us pick a color for our shortcake creams!</legend>
+    <label for="colorPicker">Choose a color:</label>
+    <input type="color" id="colorPicker" name="colorPicker" value="#ff0000">
+    </fieldset>
+    <fieldset>
+      <legend>Rate</legend>
+    <label for="rate">can you rate our shortcakes 1-5?</label><br>
+    <input type="checkbox" id="rate-1" value="1" name="shortrate">
+    <label>1</label><br>
+    <input type="checkbox" id="rate-2" value="2" name="shortrate">
+    <label>2</label><br>
+    <input type="checkbox"  id="rate-3"value="3" name="shortrate">
+    <label>3</label><br>
+    <input type="checkbox" id="rate-4" value="4" name="shortrate">
+    <label>4</label><br>
+    <input type="checkbox"  id="rate-5"value="5" name="shortrate">
+    <label>5</label><br>
+    </fieldset>
+    <fieldset>
+      <legend>Milkshake</legend>
+    <label for="milkshake">what is your favourite milkshake flavour?</label><br>
+     <input type="radio" id="vanilla-milkshake" name="milkshake" value="vanilla milkshake">
+     <label>vanilla milkshake</label><br>
+     <input type="radio"  id="chocolate-milkshake"name="milkshake" value="chocolate milkshake">
+     <label>chocolate milkshake</label><br>
+     <input type="radio" id="mocha-milkshake" name="milkshake" value="Mocha milkshake">
+     <label>Mocha milkshake</label><br>
+     <input type="radio" id="strawberry-milkshake" name="milkshake" value="strawberry milkshake">
+     <label>strawberry milkshake</label><br>
+     <input type="radio" id="mango-milkshake" name="milkshake" value="Mango milkshake">
+     <label>Mango milkshake</label><br>
+     <input type="radio" id="raspberry-milkshake" name="milkshake" value="Raspberry milkshake">
+     <label>Raspberry milkshake</label><br>
+     </fieldset>
+     <fieldset>
+      <legend>Rate</legend>
+     <label for="rate">can you rate our milkshakes 1-5?</label><br>
+     <input id="rate-1" type="checkbox" value="1" name="milkrate">
+    <label>1</label><br>
+    <input id="rate-2" type="checkbox" value="2" name="milkrate">
+    <label>2</label><br>
+    <input  id="rate-3" type="checkbox" value="3" name="milkrate">
+    <label>3</label><br>
+    <input  id="rate-4" type="checkbox" value="4" name="milkrate">
+    <label>4</label><br>
+    <input  id="rate-5" type="checkbox" value="5"name="milkrate">
+    <label>5</label><br>
+    </fieldset>
+    <fieldset>
+      <legend>Suggestions</legend>
+    <label for="suggestion">In which field would you like to advise us to improve on?</label><br>
+    <select  id="suggest" name="improve">
+      <option value=""disabled selected >select an option</option>
+      <option name="improve">shortcakes</option>
+      <option name="improve">Ice cream</option>  
+      <option name="improve">Milkshakes</option>
+    </select><br>
+    </fieldset>
+    <fieldset>
+      <legend>Recommendations</legend>
+    <label name="recommended" for="recommendations">Would you recommend Bonnie shortcakes to a friend:</label><br>
+    <input  list="recommend" name="recommendations" id="recommendations">
+    <datalist id="recommend">
+      <option value=""disabled selected>choose</option>
+      <option  id="definetely"name="recommendations" value="Definitely"></option>
+      <option  id="maybe"name="recommendations" value="Maybe"></option>
+      <option  id="not sure" name="recommendations" value="Not sure"></option>
+      <option  id="no" name="recommendations" value="No"></option>
+    </datalist>
+  </fieldset>
+  <fieldset>
+    <label for="rate">On a scale of 1-10 how much do you like Bonnie shortcakes?</label><br>
+    <input  id="rangeInput" type="range" min="0" max="10" value="10" oninput="outputId.value=rangeInput.value">
+    <output id="outputId" name="outputId">10</output><br><br>
+  </fieldset>
+   <fieldset>
+      <legend>Comments</legend>
+    <label for="comments">Anything you would like to share with us?please do share!</label><br>
+    <textarea id="comments" name="comments" place holder="please enter you comments" required></textarea><br>
+    </fieldset>
+<button>submit</button>
+<button type="reset">Reset</button>
+<footer>Bonnie shortcake.ltd</footer>
+</div>
+  </form>  
+</body>
+</html>
